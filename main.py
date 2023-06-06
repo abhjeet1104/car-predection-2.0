@@ -24,7 +24,7 @@ def main():
     p1 = st.number_input('What is the current ex-showroom price of the car ?  (In Lakhs)',2.5,25.0,step=1.0) 
     
     
-    p2 = st.number_input('What is distance completed by the car in Kilometers ?',100,50000000,step=100)
+    p2 = st.number_input('What is distance completed by the car in Kilometers ?',1000,500000,step=1000)
 
     s1 = st.selectbox('What is the fuel type of the car ?',('Petrol','Diesel', 'CNG'))
     if s1=="Petrol":
